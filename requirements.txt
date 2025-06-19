@@ -14,7 +14,7 @@ polygraphy
 psutil
 nvidia-ml-py>=12
 # Just a wrapper since nvidia-modelopt requires pynvml
-pynvml>=12.0.0
+pynvml==12.0.0
 pulp
 pandas
 h5py==3.12.1
@@ -46,7 +46,7 @@ setuptools<80
 ordered-set
 peft
 einops
-flashinfer-python~=0.2.3
+flashinfer-python==0.2.3
 opencv-python-headless
 xgrammar==0.1.16
 backoff
